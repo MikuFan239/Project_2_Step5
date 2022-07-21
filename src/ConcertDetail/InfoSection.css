@@ -1,0 +1,80 @@
+.infoSection {
+   display: grid;
+   margin-top: 8%;
+   grid-template-columns: auto;
+   background-color: rgba(255, 255, 255, 0);
+   background-image: url('../Pictures/Miku_NT_1.png');
+   background-position: -725% 10%;
+   background-size: 96%;
+   background-repeat: no-repeat;
+   padding-left: 10%;
+   margin-left: -10%;
+}
+
+/* background picture artist */
+.infoSection .artist {
+   color: #ffffff;
+   font-size: 1.8vw;;
+   position: absolute;
+   top: 173vw;
+   left: 15%;
+}
+
+/* Container setting */
+.infoSection .containerInfo {
+   margin-left: 25%;
+}
+
+/* Icon Arrow pointing down after each container */
+.infoSection .arrowPosition {
+   left: 58%;
+}
+
+/* Inner container of content */
+.infoSection .infoContent {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+/* Container for text */
+.infoContent .containerInner {
+   border: 0.15vw solid;
+   width: 20vw;
+}
+
+/* link button */
+.infoContent button {
+   padding-block: 2%;
+   padding-inline: 9%;
+   margin-bottom: 5%;
+   font-size: 1.5vw;
+   font-weight: bold;
+   color: #ffffff;
+   background-color: #E64691;
+}
+
+.infoContent button:hover {
+   transform: scale(1.1);
+   transition: transform .3s;
+}
+
+/* Responsive */
+@media screen and (max-width: 839px) {
+   .infoSection .artist {
+      top: 200vw;
+      left: 2%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .infoSection .artist {
+      top: 205vw;
+      transform: scale(0.9);
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .infoContent button {
+      transform: scale(0.9);
+   }
+}

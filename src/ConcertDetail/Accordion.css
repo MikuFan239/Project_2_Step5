@@ -1,0 +1,55 @@
+/* Taking reference from: https://github.com/myogeshchavan97/react-accordion-demo */
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  transition: 0.4s;
+}
+ 
+.accordion {
+   max-width: 600px;
+   margin: 2rem auto;
+   transition: 0.4s;
+}
+ 
+.accordion-title {
+   font-size: 1.3vw;
+   display: flex;
+   justify-content: space-between;
+   cursor: pointer;
+   color:  #000000;;
+   border: 0.15vw solid #000000;
+   border-radius: 1vw;
+   margin-bottom: 1%;
+}
+ 
+.accordion-title:hover {
+  color: #ffffff;
+   background-color: #E64691;;
+}
+
+.accordion-title,
+.accordion-content {
+   padding-inline: 3%;
+}
+ 
+.accordion-content {
+   transition: 0.5s ease-out;
+}
+
+.accordion-title .accordionIcon {
+  position: relative;
+  margin-top: 100%;
+  margin-left: -150%;
+  height: 50%;
+  width: auto;
+}
+ 
+/* @media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+ 
+  .accordion {
+   width: 90%;
+  }
+} */

@@ -1,0 +1,141 @@
+.home {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/*                */
+/* Intro section  */
+/*                */
+
+/* Home: intro */
+.home .intro {
+   display: grid;
+   grid-template-columns: auto;
+   color: #ffffff;
+ }
+ 
+ .home .intro .intro-title {
+   text-align: start;
+ }
+ 
+ .home .intro .intro-title h1 {
+   font-size: 4.5vw;
+ }
+ 
+ .home .intro .intro-title p {
+   text-align: end;
+   margin-top: -4%;
+   margin-right: 20.5%;
+   font-size: 1.65vw;
+ }
+
+ /* Carousel inside intro section */
+.intro-carousel .miku img {
+   margin-top: -39%;
+   position: relative;
+   left: 47%;
+   max-width: 59%;
+   z-index: 1;
+ }
+ 
+ .intro-carousel p {
+   position: relative;
+   bottom: 8%;
+   left: 82%;
+   width: 18%;
+   font-size: 1.25vw;
+ }
+
+/*                */
+/* TimeL section  */
+/*                */
+ 
+ /* Home: content */
+ .home .past-concert {
+   margin-top: -7%;
+   color: #ffffff;
+ }
+ 
+ .home .past-concert .title h2 {
+   margin-right: 22vw;
+   font-size: 3.3vw;
+   padding-right: 0;
+   border-bottom: 0.65vmin solid;
+ }
+ 
+/*                */
+/* Aboutsection  */
+/*                */
+ 
+ /* Home: About */
+ .home .about {
+   display: grid;
+   grid-template-columns: auto;
+   position: relative;
+   top: 30%;
+   color: #ffffff;
+ }
+ 
+ .home .about .about-content {
+   grid-column: 2/5;
+ }
+ 
+ .home .about .about-content h2 {
+   margin-left: -5vw;
+   text-align: end;
+   font-size: 3.3vw;
+   padding-left: 11vw;
+   border-bottom: 0.65vmin solid;
+ }
+ 
+ .home .about .about-content p {
+   text-align: start;
+   padding-left: 10%;
+   max-width: 45vw;
+   font-size: 1.3vw;
+   line-height: 1.5;
+ }
+
+.about-miku img {
+   position: relative;
+   top: 12%;
+   padding-bottom: 30px;
+   max-width: 24vw;
+ }
+ 
+.about-miku p {
+   position: relative;
+   left: 70%;
+   width: 30%;
+   font-size: 1.25vw;
+ }
+
+/* Responsive */
+@media screen and (max-width: 839px) {
+  .intro-carousel {
+    margin-top: 8%;
+    margin-bottom: 26%;
+  }
+
+  .intro-carousel .miku {
+     display: none;
+  }
+
+  .intro-carousel p {
+    display: none;
+ }
+
+  .home .about {
+    top: 2%;
+  }
+
+  .home .intro .intro-title p {
+    width: 86%;
+  }
+
+  .home .carousel {
+    transform: scale(1.65) translate(10.5vw, 2vw);
+    width: 60%;
+  }
+}
+

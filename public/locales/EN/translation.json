@@ -1,0 +1,182 @@
+{
+    "SideNav": {
+        "timeline":"TIMELINE",
+        "join": "HOW TO JOIN",
+        "about": "ABOUT",
+        "quiz": "QUIZ"
+    },
+    "Home": {
+        "intro-title": "MIKU'S CONCERT GALLERY",
+        "intro-subtitle": "Explore all the \"Magical Mirai\" that have hold for Hatsune Miku",
+        "intro-artist": "Art by iXima and Rella",
+        "timeline-title": "ALL MAGICAL MIRAI CONCERTS",
+        "about-title": "WHAT IS HATSUNE MIKU?",
+        "about-content-1": "Hatsune Miku is music software developed by Crypton Future Media, INC., and it enables anyone to make the computer sing by entering lyrics and melodies. As a massive number of users created music using the software and posted their works on the Internet, Hatsune Miku quickly evolved into a cultural phenomenon. Moreover, Hatsune Miku has gained much attention as a character, involved in many fields such as merchandising and live performance as a virtual singer. Now her popularity has spread across the globe.",
+        "about-content-2": "※ Kagamine Rin, Kagamine Len, Megurine Luka, MEIKO and KAITO are also virtual singers developed by Crypton Future Media, INC.",
+        "about-artist": "Art by KEI"
+    },
+    "timeline": {
+        "2022": "Magical Mirai 10th Anniversary",
+        "2022-uc": "UPCOMING!",
+        "2022-artist": "Art by KEI and NOCO",
+        "2021": "Magical Mirai 2021",
+        "2021-artist": "Art by left",
+        "2020": "Magical Mirai 2020",
+        "2020-artist": "Art by fujichoco",
+        "2019": "Magical Mirai 2019",
+        "2019-artist": "Art by ni02",
+        "2018": "Magical Mirai 2018",
+        "2018-artist": "Art by Pikazo",
+        "2017": "Magical Mirai 2017",
+        "2017-artist": "Art by iXima",
+        "2016": "Magical Mirai 2016",
+        "2016-artist": "Art by LENA",
+        "2015": "Magical Mirai 2015",
+        "2015-artist": "Art by 穂嶋",
+        "2014": "Magical Mirai 2014",
+        "2014-artist": "Art by MONQ",
+        "2013": "Magical Mirai 2013",
+        "2013-artist": "Art by CHRIS"
+    },
+    "MM2021": {
+      "subtitle": "\"MARGICAL MIRAI 2021\"",
+      "intro-tt-h3": "Fairy Tale Fantasy"
+    },
+    "MM2020": {
+      "subtitle": "\"MARGICAL MIRAI 2020\"",
+      "intro-tt-h3": "Summer Festival"
+    },
+    "MM2019": {
+      "title": "HATSUNE MIKU",
+      "subtitle": "\"MARGICAL MIRAI 2019\"",
+      "intro-btn-1": "INFO",
+      "intro-btn-2": "SPECIAL",
+      "intro-ct-h2": "MAIN VISUAL",
+      "intro-ct-p": "COSTUME. MAIN VISUAL",
+      "intro-ct-hl": "COSTUME",
+      "intro-tt-p": "YEAR'S THEME",
+      "intro-tt-h3": "\"Future Circus\"!",
+
+      "info-title": "INFO",
+      "info-ci-h2-1": "LIVE SHOW",
+      "info-ci-h2-2": "EXHIBITION",
+      "info-ci-h2-3": "Links",
+      "info-ci-h2-4": "COMMERCIAL VIDEO",
+      "info-ci-h3-1": "Locations and Dates",
+      "info-ci-h3-2": "Links to Offical Site and Goods",
+      "info-ci-h3-3": "Magical Mirai 2019 Commerical Video",
+      "info-ic-h4-1": "OSAKA",
+      "info-ic-h4-2": "TOKYO",
+      "info-ic-h4-3": "OFFICAL WEB",
+      "info-ic-h4-4": "OFFICAL GOODS",
+      "info-btn-1": "LINK TO START",
+      "info-btn-2": "LINK TO START",
+      "info-ic-p-1": "INTEX Osaka Hall 5A",
+      "info-ic-p-2": "2019.8.10(Sat) - 11(Sun)",
+      "info-ic-p-3": "Makuhari Messe",
+      "info-ic-p-4": "International ExhibitionHall 3",
+      "info-ic-p-5": "2019.8.30(Fri) - 9.1(Sun)",
+      "info-ic-p-6": "INTEX Osaka Hall 4,5B",
+      "info-ic-p-7": "2019.8.9(Fri) - 11(Sun)",
+      "info-ic-p-8": "International ExhibitionHall 1,2",
+      "info-ic-p-9": "2019.8.30(Fri) - 9.1(Sun)",
+      "info-artist": "Art by iXima and Rella",
+       
+
+      "special-title": "SPECIAL",
+      "special-btn-1":  "COSTUME",
+      "special-btn-2": "THEME SONG",
+      "special-btn-3": "AFTER REPORT",
+      "special-ci-h2-1": "COSTUME",
+      "special-ci-h2-2": "THEME SONG",
+      "special-ci-h2-3": "AFTER REPORT",
+      "special-ci-h3-1": "Design for Hatsune Miku by ni02",
+      "special-ci-h3-2": "Design for (LTR) Megurien Luka, Katio, Meiko, Jagamine Rin, and Kagamine Len, by ni02",
+      "special-ci-h3-3": "\"Bless Your Breath\" by 和田たけあき",
+      "special-ci-h3-4": "Photo Gallery",
+      "special-ci-h3-5": "Concert Report",
+      "special-ci-h3-6": "Set List",
+      "special-artist": "Art by iXima",
+
+      "comment-title": "COMMENTS",
+      "comment-input": "PLEASE SEND YOUR FRIENDLY COMMENT"
+  },
+  "MM2018": {
+    "subtitle": "\"MARGICAL MIRAI 2018\""
+  },
+  "MM2017": {
+    "subtitle": "\"MARGICAL MIRAI 2017\""
+  },
+  "MM2016": {
+    "subtitle": "\"MARGICAL MIRAI 2016\""
+  },
+  "MM2015": {
+    "subtitle": "\"MARGICAL MIRAI 2015\""
+  },
+  "MM2014": {
+    "subtitle": "\"MARGICAL MIRAI 2014\""
+  },
+  "MM2013": {
+    "subtitle": "\"MARGICAL MIRAI 2013\""
+  },
+  "Join": {
+    "title": "HOW TO JOIN THE CONCERT",
+    "subtitle": "OF HATSUNE MIKU",
+    "step-btn-next": "NEXT",
+    "step-btn-prev": "PREV",
+    "step-btn-home": "HOME",
+    "step-1-h2": "STEP 1: Prepare Japan Visa",
+    "step-1-p-1": "1. According to your own country or region, find the corresponding Embassy of Japan on this",
+    "step-1-a": "website",
+    "step-1-p-2": "2. Follow the instruction on the page of \"Visiting Japan\" and fill the \"Visa application form\".",
+    "step-1-p-3": "3. Prepare all the required documents and all the left is submit and wait.",
+
+    "step-2-h2": "STEP 2: Book Concert Ticket",
+    "step-2-p-1": "1. Follow the instruction and book the ticket on the offical Magical Mirai website of current year.",
+    "step-2-p-2": "2. There are two kinds of tickets which are Lottery and Accommodation.",
+    "step-2-p-3": "Lottery are not guarantte for the class and the tickect you chosen.",
+    "step-2-p-4": "Accommodation is guaranteed for a S-class ticket and accompany with one-night hotel, but with much higher price.",
+    "step-2-p-5": "3. Wait until the announced day, the successful booking is indicated by the transaction on your credit card.",
+
+    "step-3-h2": "STEP 3: Prepare Transportation",
+    "step-3-p-1": "1. Book the flight according to your own itinerary, but make sure arrive the city of concert at least one day before.",
+    "step-3-p-2": "2. Traffic card for subway are available at either Haneda or Narita International Airport.",
+    "step-3-p-3": "3. You can book trains or Shinkansen via",
+    "step-3-p-4": ", and you can pick up the tickets or passes at both airports.",
+
+    "step-4-title": "Wish you a good journey, See you in Magical Mirai!"
+  },
+  "Quiz": {
+    "title": "QUIZ",
+
+    "q1-text": "Who is the artist for the main visual of Magical Mirai 2019?",
+    "q1-ans-1": "fujichoco",
+    "q1-ans-2": "iXima",
+    "q1-ans-3": "ni02",
+    "q1-ans-4": "Pikazo",
+
+    "q2-text": "What is the year's theme of Magical Mirai 2021?",
+    "q2-ans-1": "Future Circus",
+    "q2-ans-2": "Fairy Tale Fantasy",
+    "q2-ans-3": "Summer Festival",
+    "q2-ans-4": "Winter Festival",
+
+    "q3-text": "Which year does Magical Mirai hold in three cities?",
+    "q3-ans-1": "2022",
+    "q3-ans-2": "2013",
+    "q3-ans-3": "2015",
+    "q3-ans-4": "2019",
+
+    "q4-text": "What is the theme song of Magical Mirai 2020?",
+    "q4-ans-1": "39music!",
+    "q4-ans-2": "Bless Your Breath",
+    "q4-ans-3": "Dune",
+    "q4-ans-4": "Because You're Here",
+
+    "q5-text": "Which Magical Mirai was hold between November and December?",
+    "q5-ans-1": "2016",
+    "q5-ans-2": "2018",
+    "q5-ans-3": "2021",
+    "q5-ans-4": "2020"
+  }
+}

@@ -1,0 +1,200 @@
+/* Reference: https://www.youtube.com/watch?v=Lya-qYiDqIA https://github.com/chrisblakely01/quiz-app */
+
+ .quiz input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.35vw;
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+ }
+
+ #quizBtn {
+  line-height: 5.5;
+ }
+
+ .quiz input:hover{
+    color: #E64691;
+ }
+
+ /* quiz body section */
+ .quizBody {
+    position: absolute;
+    background-color: #ffffff;
+    top: 23%;
+    width: 45vw;
+    min-height: 20vw;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: block;
+    justify-content: space-evenly;
+  }
+
+  .quizBody button {
+    width: 100%;
+    font-size: 16px;
+    color: #E64691;
+    background-color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0.25vw solid #E64691;
+    cursor: pointer;
+  }
+  
+  .quizBody .quizTitle {
+    position: absolute;
+    top: -30%;
+    font-size: 1.3vw;
+    color: #ffffff;
+  }
+
+  .quizBody .quizTitle h2 {
+    border-bottom: 0.25vw solid ;
+  }
+
+  /* score section */
+  .quizBody .score-section {
+    margin-top: 22%;
+    margin-left: 19%;
+    text-align: center;
+    display: flex;
+    width: 60%;
+    color: #E64691;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quizBody .score-section p {
+    position: absolute;
+    margin-bottom: 20%;
+    font-size: 1.5vw;
+  }
+
+  .quizBody .score-section button {
+    justify-content: center;
+    font-size: 1.25vw;
+  }
+  
+  /* QUESTION SECTION */
+  .quizBody .question-section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 5%;
+  }
+  
+  .quizBody .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .quizBody .question-count span {
+    font-size: 28px;
+  }
+  
+  .quizBody .question-text {
+    margin-bottom: 12px;
+  }
+  
+  /* ANSWERS SECTION */
+  .quizBody .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .quizBody .answer-section button {
+    margin-bottom: 2%;
+  }
+
+  .question-count {
+    color: #E64691;;
+  }
+
+  .question-text {
+    text-align: center;
+    font-size: 1.25vw;
+    color: #E64691;;
+  }
+
+  .answer-section button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25vw;
+  }
+
+  #retryBtn {
+    position: relative;
+    top: 10%;
+  }
+  
+  .quizBody button:hover {
+    color: #ffffff;
+    background-color: #E64691;
+  }
+  
+  .quizBody button:focus {
+    outline: none;
+  }
+  
+  .quizBody button svg {
+    margin-right: 5px;
+  }
+
+ /* Popup style */
+ .popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    border-radius: 4px;
+    padding: 20px;
+    overflow: auto;
+    background: #39c5bb;
+    background-image: 
+        url('../Pictures/Miku_NT_1.png'),
+        url('../Pictures/Miku_NT_2.png');
+    background-position: -15% 55%, 135% 50%;
+    background-size: 36%, 50%;
+    background-repeat: no-repeat, no-repeat;
+  }
+  
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 35px);
+    top: calc(100vh - 85vh - 35px);
+    color: #E64691;
+    background: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 0.15vw solid #E64691;
+    font-size: 20px;
+  }

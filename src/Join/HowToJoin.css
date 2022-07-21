@@ -1,0 +1,101 @@
+.howToJoin {
+   background-image: url('../Pictures/Miku_V2_App.png');
+   background-position: 103% 80%;
+   background-size: 18%;
+   background-repeat: no-repeat;   
+}
+
+ .howToJoin2 {
+   background-image: url('../Pictures/Miku_V3_EN.png');
+   background-position: 100% 80%;
+   background-size: 18%;
+   background-repeat: no-repeat;
+}
+
+.howToJoin3 {
+   background-image: url('../Pictures/Miku_V4_CN.png');
+   background-position: 110% 86%;
+   background-size: 23%;
+   background-repeat: no-repeat;
+}
+.howToJoin4 {
+   background-image: url('../Pictures/Miku_Sekai.png');
+   background-position: 103% 80%;
+   background-size: 20%;
+   background-repeat: no-repeat;
+}
+
+/* Intro: Title */
+.joinTitle h1 {
+   text-align: start;
+   display: block;
+   font-size: 4.5vw;
+   color: rgb(255, 255, 255);
+}
+
+a {
+   color: #E64691;
+}
+
+/* Step title */
+.steps h2 {
+   text-align: center;
+   font-size: 2.3vw;
+   color: #E64691;
+   border: 0.2vw solid #ffff;
+   padding-block: 0.5%;
+   width: 50%;
+}
+
+.stepContent {
+   padding: 7%;
+   padding-block: 2%;
+}
+
+.howToJoin4 .steps h2 {
+   width: 100%;
+   padding-block: 10.86%;
+}
+.stepContent p {
+   font-size: 1.25vw;
+   color: #ffff;
+}
+
+#tk {
+   margin-left: 3%;
+}
+
+#tk::before {
+   content: ' ';
+   position: absolute;
+   width: 1.1vw;
+   height: 1.1vw;
+   background-color: white;
+   border: 0.25vw solid #E64691;
+   border-radius: 50%;
+   z-index: 1;
+}
+
+/* Progress button */
+.howToJoin .stepBTN {
+   text-align: end;
+   margin-top: 5%;
+}
+
+.howToJoin2 .stepBTN, .howToJoin3 .stepBTN, .howToJoin4 .stepBTN {
+   display: flex;
+   justify-content: space-between;
+   text-align: end;
+   margin-top: 2%;
+}
+
+.stepBTN button {
+   right: 5%;
+   padding-block: 0.5vw;
+   padding-inline: 1vw;
+   font-size: 1.5vw;
+   font-weight: bold;
+   color: #ffffff;
+   background-color: #E64691;
+   border-color: transparent;
+}
