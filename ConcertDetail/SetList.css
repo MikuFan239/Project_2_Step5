@@ -1,0 +1,62 @@
+/* Taking reference from: https://www.w3schools.com/css/css_table.asp */
+
+#MM2019SongList {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5%;
+  font-size: 1.1vw;
+}
+
+#MM2019SongList td, #MM2019SongList th {
+  padding: 1.2vw;
+}
+
+#MM2019SongList tr:nth-child(even){background-color: #f2f2f2;}
+
+#MM2019SongList tr:hover {background-color: #ddd;}
+
+#MM2019SongList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #E64691;
+  color: white;
+}
+
+/* Responsive */
+@media screen and (max-width: 630px) {
+  #MM2019SongList {
+    transform: translateX(-1vw);
+  }
+} 
+
+@media screen and (max-width: 600px) {
+  #MM2019SongList {
+    transform: translateX(-2vw);
+  }
+} 
+
+@media screen and (max-width: 560px) {
+  #MM2019SongList {
+    transform: translateX(-4vw);
+  }
+} 
+
+@media screen and (max-width: 550px) {
+  #MM2019SongList {
+    transform: translateX(-5vw);
+  }
+} 
+
+@media screen and (max-width: 520px) {
+  #MM2019SongList {
+    transform: translateX(-6vw);
+  }
+} 
+
+@media screen and (max-width: 500px) {
+  #MM2019SongList {
+    transform: translateX(-6.5vw);
+  }
+} 
