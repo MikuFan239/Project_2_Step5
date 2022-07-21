@@ -19,10 +19,10 @@ const ConcertDetailMM2020 = () => {
                </div>
             
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#info'>
+                  <HashLink smooth to ='/ConcertDetailMM2020/#info'>
                      <button>{t('MM2019.intro-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#special'>
+                  <HashLink smooth to ='/ConcertDetailMM2020/#special'>
                      <button>{t('MM2019.intro-btn-2')}</button>
                   </HashLink>
                </div>
@@ -36,7 +36,7 @@ const ConcertDetailMM2020 = () => {
                         <div className="costumeText">
                            <h3>fujichoco</h3>
                            <p>{t('MM2019.intro-ct-p')}</p>
-                           <HashLink smooth to='/ConcertDetail:MM2021/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
+                           <HashLink smooth to='/ConcertDetailMM2020/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
                         </div>
 
                         <div className="themeText">
@@ -46,7 +46,7 @@ const ConcertDetailMM2020 = () => {
                      </div>
                   </div>
 
-                  <img src={MM} alt="2019MMDetail"/>
+                  <img src={MM} alt="2019MMDetail" id="Detail2020MM"/>
                </div>
             </div>
 
@@ -65,13 +65,13 @@ const ConcertDetailMM2020 = () => {
                </div>
 
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#costume'>
+                  <HashLink smooth to ='/ConcertDetailMM2020/#costume'>
                      <button>{t('MM2019.special-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#theme song'>
+                  <HashLink smooth to ='/ConcertDetailMM2020/#theme song'>
                      <button>{t('MM2019.special-btn-2')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#after report'>
+                  <HashLink smooth to ='/ConcertDetailMM2020/#after report'>
                      <button>{t('MM2019.special-btn-3')}</button>
                   </HashLink>
                </div>

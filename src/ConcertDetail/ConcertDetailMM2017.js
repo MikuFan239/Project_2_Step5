@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 import { HashLink } from 'react-router-hash-link';
 import MM from '../Pictures/2017MM.png';
 
-const ConcertDetailMM20217 = () => {
+const ConcertDetailMM20177 = () => {
    const { t } = useTranslation();
 
    return (  
@@ -19,10 +19,10 @@ const ConcertDetailMM20217 = () => {
                </div>
             
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#info'>
+                  <HashLink smooth to ='/ConcertDetailMM2017/#info'>
                      <button>{t('MM2019.intro-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#special'>
+                  <HashLink smooth to ='/ConcertDetailMM2017/#special'>
                      <button>{t('MM2019.intro-btn-2')}</button>
                   </HashLink>
                </div>
@@ -36,7 +36,7 @@ const ConcertDetailMM20217 = () => {
                         <div className="costumeText">
                            <h3>iXima</h3>
                            <p>{t('MM2019.intro-ct-p')}</p>
-                           <HashLink smooth to='/ConcertDetail:MM2021/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
+                           <HashLink smooth to='/ConcertDetailMM2017/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
                         </div>
 
                         <div className="themeText">
@@ -65,13 +65,13 @@ const ConcertDetailMM20217 = () => {
                </div>
 
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#costume'>
+                  <HashLink smooth to ='/ConcertDetailMM2017/#costume'>
                      <button>{t('MM2019.special-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#theme song'>
+                  <HashLink smooth to ='/ConcertDetailMM2017/#theme song'>
                      <button>{t('MM2019.special-btn-2')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#after report'>
+                  <HashLink smooth to ='/ConcertDetailMM2017/#after report'>
                      <button>{t('MM2019.special-btn-3')}</button>
                   </HashLink>
                </div>
@@ -90,4 +90,4 @@ const ConcertDetailMM20217 = () => {
    );
 }
  
-export default ConcertDetailMM20217;
+export default ConcertDetailMM20177;

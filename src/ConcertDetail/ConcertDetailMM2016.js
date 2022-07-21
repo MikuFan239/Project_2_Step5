@@ -19,10 +19,10 @@ const ConcertDetailMM2016 = () => {
                </div>
             
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#info'>
+                  <HashLink smooth to ='/ConcertDetailMM2016/#info'>
                      <button>{t('MM2019.intro-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#special'>
+                  <HashLink smooth to ='/ConcertDetailMM2016/#special'>
                      <button>{t('MM2019.intro-btn-2')}</button>
                   </HashLink>
                </div>
@@ -36,7 +36,7 @@ const ConcertDetailMM2016 = () => {
                         <div className="costumeText">
                            <h3>LENA</h3>
                            <p>{t('MM2019.intro-ct-p')}</p>
-                           <HashLink smooth to='/ConcertDetail:MM2021/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
+                           <HashLink smooth to='/ConcertDetailMM2016/#costume'>{t('MM2019.intro-ct-hl')}<i class="arrowRight"/></HashLink>
                         </div>
 
                         <div className="themeText">
@@ -65,13 +65,13 @@ const ConcertDetailMM2016 = () => {
                </div>
 
                <div className="btnGroup">
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#costume'>
+                  <HashLink smooth to ='/ConcertDetailMM2016/#costume'>
                      <button>{t('MM2019.special-btn-1')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#theme song'>
+                  <HashLink smooth to ='/ConcertDetailMM2016/#theme song'>
                      <button>{t('MM2019.special-btn-2')}</button>
                   </HashLink>
-                  <HashLink smooth to ='/ConcertDetail:MM2021/#after report'>
+                  <HashLink smooth to ='/ConcertDetailMM2016/#after report'>
                      <button>{t('MM2019.special-btn-3')}</button>
                   </HashLink>
                </div>

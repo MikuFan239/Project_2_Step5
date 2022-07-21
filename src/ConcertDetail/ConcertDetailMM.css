@@ -186,7 +186,6 @@ iframe {
 }
 
 .intro .inner a {
-   /* text-decoration: none; */
    color: #000000;
 }
 
@@ -212,6 +211,29 @@ iframe {
    margin-left: 51%;
    z-index: 1;
    margin-bottom: 2%;
+}
+
+#Detail2020MM {
+   max-width: 40%;
+   left: 10%;
+}
+
+#Detail2018MM {
+   max-width: 42%;
+   left: 2%;
+}
+
+#Detail2015MM {
+   max-width: 45%;
+}
+
+#Detail2014MM {
+   max-width: 35%;
+   left: 9%;
+}
+
+#Detail2013MM {
+   max-width: 42%;
 }
 
 /*                */
